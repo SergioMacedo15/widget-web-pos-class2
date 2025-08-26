@@ -1,9 +1,17 @@
-import React from 'react'
+import UploadWidgetUploadItem from './upload-widget-upload-item'
 
 const UploadWidgetUploadList = () => {
     return (
-        <div className='py-3 h-48'>
+        <div className='px-3 flex flex-col gap-3'>
+            <span className='text-xs font-medium'>
+                Upload Files {" "}
+                <span className='text-zinc-400'>(2)</span>
+            </span>
+            <div className='space-y-2'>
+                <UploadWidgetUploadItem />
+                <UploadWidgetUploadItem />
 
+            </div>
         </div>
     )
 }

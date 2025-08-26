@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.12",
+    "@radix-ui/react-progress": "^1.1.7",
     "lucide-react": "^0.540.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-dropzone": "^14.3.8",
     "tailwind-variants": "^2.1.0"
   },
   "devDependencies": {
